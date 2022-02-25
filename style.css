@@ -1,0 +1,176 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body,html{
+    background-color: #141414;
+    color: #fff;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar{
+    width: 10px;
+}
+
+::-webkit-scrollbar-track{
+    border: 5px;
+    box-shadow: inset 0 0 10px black;
+}
+
+::-webkit-scrollbar-thumb{
+    border-radius: 5px;
+    background-color: #E50914;
+}
+
+
+
+header{
+    position: fixed;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100vw;
+    height: 80px;
+    background-color: #080808;
+}
+
+/*** Logo ***/
+header h3{
+    font-size: 35px;
+    margin: 0 200px;
+    color: #E50914;
+}
+
+ul{
+    display: flex;
+    align-items: center;
+    margin: 0 200px;
+    list-style: none;
+}
+
+li a{
+    font-size: 22px;
+    padding: 0 20px;
+    color: #fff;
+    text-decoration: none;
+}
+
+li a:hover{
+    border-bottom: 1px solid #fff;
+}
+
+.perfil{
+    display: flex;
+    align-items: center;
+    border: 1px solid #fff;
+    padding: 5px;
+    margin: 0 20px;
+    font-size: 20px;
+}
+
+.perfil img{
+    width: 35px;
+    margin-right: 12px;
+}
+
+/*** main ***/
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+}
+
+.apresentacao{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 60vh;
+    margin-top: 25%;
+    padding: 10px;
+    background-color: #141414;
+}
+
+.apresentacao img{
+    width: 300px;
+    height: 400px;
+    margin-right: 500px;
+}
+
+.containerA, .containerB, .containerC, .containerD, .containerE, .containerF, .containerG, .containerH, .containerI, .containerJ, .containerK, .containerL{
+    display: none;
+    justify-content: center;
+    align-items: center;
+    margin: 0 30px;
+}
+
+.texto-sobre{
+    width: 600px;
+}
+
+.texto-sobre h1{
+    color: #E50914;
+    margin: 10px auto;
+}
+
+.texto-sobre p{
+    font-size: 20px;
+    margin: 10px auto;
+}
+
+.texto-sobre button{
+    font-size: 20px;
+    padding: 8px 20px;
+    background-color: #E50914;
+    color: #fff;
+    border: 1px solid transparent;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.texto-sobre button:hover{
+    border: 1px solid #fff;
+}
+
+.filmes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    padding: 25px;
+}
+
+.filmes img{
+    margin: 0 10px;
+    width: 240px;
+    height: 310px;
+    cursor: pointer;
+}
+
+/*** Footer ***/
+.paginas{
+    display: flex;  
+    justify-content: center;
+    width: 100vw;
+    height: 80px;
+    padding: 20px;
+}
+
+.paginas button{
+    font-size: 18px;
+    padding: 8px;
+    margin-right: 10px;
+    border: none;
+    border-radius: 8px;
+    background-color: #E50914;
+    color: #fff;
+    cursor: pointer;
+}
